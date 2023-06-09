@@ -8,7 +8,6 @@ public class Main3 {
         for(int i =0; i< numbers.length; i++){
             result = numbers[i] + result;
         }
-        System.out.println(result);
         int  average  = result / numbers.length;
         System.out.println(average);
     }
